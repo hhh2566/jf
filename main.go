@@ -34,7 +34,7 @@ func startOne(setIp string) {
 		Conn:   conn,
 		UrlGet: "https://www.bing.com/search",
 		UaPc:   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363",
-		UaMb:   "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/111.0.0.0",
+		UaMb:   "Mozilla/5.0 (Linux; U; Android 12; zh-cn; 2201122C Build/SKQ1.211006.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.116 Mobile Safari/537.36 XiaoMi/MiuiBrowser/15.9.18 swan-mibrowser",
 	}
 	// init任务管理器处理
 	manager.Handler(params)
